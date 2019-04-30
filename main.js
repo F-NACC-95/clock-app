@@ -1,5 +1,3 @@
-let meridian = ' AM'
-
 getTime = () => {
     let today = new Date();
     let hours = today.getHours();
