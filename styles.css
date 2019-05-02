@@ -1,10 +1,36 @@
 * {
     padding: 0px;
     margin: 0px;
+    box-sizing: border-box;
 }
 
 html {
     margin: auto;
     text-align: center;
-    padding-top: 4rem;
+    background-color: #232323;
+    color: white;
+}
+
+.div__1, .div__2, .div__3, .div__4, .div__5 {
+    margin: 9vh;
+}
+
+.div__1 {
+    border: 5px solid blue;
+}
+
+.div__2 {
+    border: 5px solid green;;
+}
+
+.div__3 {
+    border: 5px solid yellow;
+}
+
+.div__4 {
+    border: 5px solid orange;
+}
+
+.div__5 {
+    background-color: red;
 }
